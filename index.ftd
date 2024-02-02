@@ -81,13 +81,13 @@ padding-left.px: 15
 -- ftd.text-input:
 placeholder: Enter your email id.....
 align-self: center
-max-length: 10
+max-length: 25
 width.fixed.px: 320
 padding-horizontal.px: 16
 padding-vertical.px: 12
 margin-bottom.px: 25
 border-radius.px: 10
-$on-input$: $ftd.set-string($a = $phone, v = $VALUE)
+$on-input$: $ftd.set-string($a = $email, v = $VALUE)
 
 -- ftd.text: Address:
 padding-left.px: 15
@@ -139,7 +139,7 @@ padding-top.px: 12
 padding-bottom.px: 12
 align-self: center
 margin-bottom.px: 30
-link: /details
+link: #
 color: white
 ;; open-in-new-tab: true 
 
